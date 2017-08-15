@@ -1,8 +1,8 @@
 //
-//  CoreData+Helper.swift
+//  CoreDataStack.swift
 //  MarketLing
 //
-//  Created by Collin Cannavo on 8/14/17.
+//  Created by Collin Cannavo on 8/15/17.
 //  Copyright © 2017 Collin Cannavo. All rights reserved.
 //
 

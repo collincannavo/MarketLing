@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Calendar" representedClassName="Calendar" syncable="YES" codeGenerationType="class">
-        <attribute name="month" attributeType="String" syncable="YES"/>
-        <attribute name="sourceColor" optional="YES" attributeType="String" syncable="YES"/>
-    </entity>
-    <entity name="HealthReport" representedClassName="HealthReport" syncable="YES" codeGenerationType="class">
-        <attribute name="churnRate" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="costPerCustomer" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="returningCustomer" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="totalBudget" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="totalCost" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="totalNewCustomers" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="totalSources" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    <entity name="Product" representedClassName="Product" syncable="YES" codeGenerationType="class">
+        <attribute name="cost" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
     </entity>
     <entity name="Source" representedClassName="Source" syncable="YES" codeGenerationType="class">
         <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
@@ -22,7 +15,6 @@
     </entity>
     <elements>
         <element name="Source" positionX="-63" positionY="-18" width="128" height="120"/>
-        <element name="Calendar" positionX="-54" positionY="27" width="128" height="75"/>
-        <element name="HealthReport" positionX="-36" positionY="36" width="128" height="150"/>
+        <element name="Product" positionX="-36" positionY="45" width="128" height="105"/>
     </elements>
 </model>

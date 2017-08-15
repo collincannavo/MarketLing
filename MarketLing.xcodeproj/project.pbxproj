@@ -12,10 +12,20 @@
 		B6E726331F4254C70067B6F5 /* MarketLing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6E726311F4254C70067B6F5 /* MarketLing.xcdatamodeld */; };
 		B6E726351F4254C70067B6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E726341F4254C70067B6F5 /* Assets.xcassets */; };
 		B6E726381F4254C70067B6F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E726361F4254C70067B6F5 /* LaunchScreen.storyboard */; };
-		B6E726421F429CB70067B6F5 /* CoreData+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E726411F429CB70067B6F5 /* CoreData+Helper.swift */; };
 		B6E726441F42A3B70067B6F5 /* PreviousMonthsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E726431F42A3B70067B6F5 /* PreviousMonthsViewController.swift */; };
 		B6E726471F42A3E00067B6F5 /* PreviousMonths.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E726461F42A3E00067B6F5 /* PreviousMonths.storyboard */; };
 		B6E726491F42A43D0067B6F5 /* PreviousMonthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E726481F42A43D0067B6F5 /* PreviousMonthCollectionViewCell.swift */; };
+		B6E7264D1F433B570067B6F5 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7264C1F433B570067B6F5 /* CoreDataStack.swift */; };
+		B6E726501F433BB00067B6F5 /* Source+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7264F1F433BB00067B6F5 /* Source+Convenience.swift */; };
+		B6E726521F4341340067B6F5 /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E726511F4341340067B6F5 /* Calendar.storyboard */; };
+		B6E726541F4341AD0067B6F5 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E726531F4341AD0067B6F5 /* CalendarViewController.swift */; };
+		B6E726591F4343040067B6F5 /* ProductShelf.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E726581F4343040067B6F5 /* ProductShelf.storyboard */; };
+		B6E7265B1F43439E0067B6F5 /* Product.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E7265A1F43439E0067B6F5 /* Product.storyboard */; };
+		B6E7265D1F4348370067B6F5 /* SalesReport.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E7265C1F4348370067B6F5 /* SalesReport.storyboard */; };
+		B6E7265F1F434AD50067B6F5 /* ProductSoldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7265E1F434AD50067B6F5 /* ProductSoldTableViewCell.swift */; };
+		B6E726621F434B290067B6F5 /* SalesReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E726611F434B290067B6F5 /* SalesReportViewController.swift */; };
+		B6E726641F434BE40067B6F5 /* CalendarItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E726631F434BE40067B6F5 /* CalendarItem.storyboard */; };
+		B6E726661F434CCF0067B6F5 /* CalendarItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E726651F434CCF0067B6F5 /* CalendarItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +36,20 @@
 		B6E726341F4254C70067B6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6E726371F4254C70067B6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6E726391F4254C70067B6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6E726411F429CB70067B6F5 /* CoreData+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreData+Helper.swift"; sourceTree = "<group>"; };
 		B6E726431F42A3B70067B6F5 /* PreviousMonthsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousMonthsViewController.swift; sourceTree = "<group>"; };
 		B6E726461F42A3E00067B6F5 /* PreviousMonths.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PreviousMonths.storyboard; sourceTree = "<group>"; };
 		B6E726481F42A43D0067B6F5 /* PreviousMonthCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousMonthCollectionViewCell.swift; sourceTree = "<group>"; };
+		B6E7264C1F433B570067B6F5 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		B6E7264F1F433BB00067B6F5 /* Source+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Source+Convenience.swift"; sourceTree = "<group>"; };
+		B6E726511F4341340067B6F5 /* Calendar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
+		B6E726531F4341AD0067B6F5 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		B6E726581F4343040067B6F5 /* ProductShelf.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProductShelf.storyboard; sourceTree = "<group>"; };
+		B6E7265A1F43439E0067B6F5 /* Product.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Product.storyboard; sourceTree = "<group>"; };
+		B6E7265C1F4348370067B6F5 /* SalesReport.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SalesReport.storyboard; sourceTree = "<group>"; };
+		B6E7265E1F434AD50067B6F5 /* ProductSoldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductSoldTableViewCell.swift; sourceTree = "<group>"; };
+		B6E726611F434B290067B6F5 /* SalesReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesReportViewController.swift; sourceTree = "<group>"; };
+		B6E726631F434BE40067B6F5 /* CalendarItem.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CalendarItem.storyboard; sourceTree = "<group>"; };
+		B6E726651F434CCF0067B6F5 /* CalendarItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +82,11 @@
 		B6E726291F4254C70067B6F5 /* MarketLing */ = {
 			isa = PBXGroup;
 			children = (
-				B6E726481F42A43D0067B6F5 /* PreviousMonthCollectionViewCell.swift */,
-				B6E726431F42A3B70067B6F5 /* PreviousMonthsViewController.swift */,
+				B6E726601F434AFC0067B6F5 /* View */,
+				B6E726551F4341DF0067B6F5 /* ViewControllers */,
 				B6E7263F1F4255E30067B6F5 /* Resources */,
 				B6E726401F4255F30067B6F5 /* Storyboards */,
-				B6E726311F4254C70067B6F5 /* MarketLing.xcdatamodeld */,
-				B6E726411F429CB70067B6F5 /* CoreData+Helper.swift */,
+				B6E7264E1F433B780067B6F5 /* Model */,
 			);
 			path = MarketLing;
 			sourceTree = "<group>";
@@ -78,6 +97,7 @@
 				B6E7262A1F4254C70067B6F5 /* AppDelegate.swift */,
 				B6E726341F4254C70067B6F5 /* Assets.xcassets */,
 				B6E726391F4254C70067B6F5 /* Info.plist */,
+				B6E7264C1F433B570067B6F5 /* CoreDataStack.swift */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -88,8 +108,42 @@
 				B6E7262E1F4254C70067B6F5 /* Main.storyboard */,
 				B6E726361F4254C70067B6F5 /* LaunchScreen.storyboard */,
 				B6E726461F42A3E00067B6F5 /* PreviousMonths.storyboard */,
+				B6E726511F4341340067B6F5 /* Calendar.storyboard */,
+				B6E726581F4343040067B6F5 /* ProductShelf.storyboard */,
+				B6E7265A1F43439E0067B6F5 /* Product.storyboard */,
+				B6E7265C1F4348370067B6F5 /* SalesReport.storyboard */,
+				B6E726631F434BE40067B6F5 /* CalendarItem.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B6E7264E1F433B780067B6F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6E726311F4254C70067B6F5 /* MarketLing.xcdatamodeld */,
+				B6E7264F1F433BB00067B6F5 /* Source+Convenience.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B6E726551F4341DF0067B6F5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6E726481F42A43D0067B6F5 /* PreviousMonthCollectionViewCell.swift */,
+				B6E726431F42A3B70067B6F5 /* PreviousMonthsViewController.swift */,
+				B6E726611F434B290067B6F5 /* SalesReportViewController.swift */,
+				B6E726651F434CCF0067B6F5 /* CalendarItemViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B6E726601F434AFC0067B6F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6E726531F4341AD0067B6F5 /* CalendarViewController.swift */,
+				B6E7265E1F434AD50067B6F5 /* ProductSoldTableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,9 +207,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6E726381F4254C70067B6F5 /* LaunchScreen.storyboard in Resources */,
+				B6E7265D1F4348370067B6F5 /* SalesReport.storyboard in Resources */,
 				B6E726351F4254C70067B6F5 /* Assets.xcassets in Resources */,
+				B6E7265B1F43439E0067B6F5 /* Product.storyboard in Resources */,
 				B6E726471F42A3E00067B6F5 /* PreviousMonths.storyboard in Resources */,
+				B6E726521F4341340067B6F5 /* Calendar.storyboard in Resources */,
 				B6E726301F4254C70067B6F5 /* Main.storyboard in Resources */,
+				B6E726641F434BE40067B6F5 /* CalendarItem.storyboard in Resources */,
+				B6E726591F4343040067B6F5 /* ProductShelf.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,11 +225,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E7264D1F433B570067B6F5 /* CoreDataStack.swift in Sources */,
 				B6E7262B1F4254C70067B6F5 /* AppDelegate.swift in Sources */,
+				B6E726661F434CCF0067B6F5 /* CalendarItemViewController.swift in Sources */,
+				B6E726501F433BB00067B6F5 /* Source+Convenience.swift in Sources */,
+				B6E726621F434B290067B6F5 /* SalesReportViewController.swift in Sources */,
 				B6E726491F42A43D0067B6F5 /* PreviousMonthCollectionViewCell.swift in Sources */,
-				B6E726421F429CB70067B6F5 /* CoreData+Helper.swift in Sources */,
 				B6E726441F42A3B70067B6F5 /* PreviousMonthsViewController.swift in Sources */,
+				B6E726541F4341AD0067B6F5 /* CalendarViewController.swift in Sources */,
 				B6E726331F4254C70067B6F5 /* MarketLing.xcdatamodeld in Sources */,
+				B6E7265F1F434AD50067B6F5 /* ProductSoldTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
