@@ -12,6 +12,7 @@
 		B6E726331F4254C70067B6F5 /* MarketLing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6E726311F4254C70067B6F5 /* MarketLing.xcdatamodeld */; };
 		B6E726351F4254C70067B6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E726341F4254C70067B6F5 /* Assets.xcassets */; };
 		B6E726381F4254C70067B6F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E726361F4254C70067B6F5 /* LaunchScreen.storyboard */; };
+		B6E726421F429CB70067B6F5 /* CoreData+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E726411F429CB70067B6F5 /* CoreData+Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B6E726341F4254C70067B6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6E726371F4254C70067B6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6E726391F4254C70067B6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E726411F429CB70067B6F5 /* CoreData+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreData+Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B6E7263F1F4255E30067B6F5 /* Resources */,
 				B6E726401F4255F30067B6F5 /* Storyboards */,
 				B6E726311F4254C70067B6F5 /* MarketLing.xcdatamodeld */,
+				B6E726411F429CB70067B6F5 /* CoreData+Helper.swift */,
 			);
 			path = MarketLing;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6E7262B1F4254C70067B6F5 /* AppDelegate.swift in Sources */,
+				B6E726421F429CB70067B6F5 /* CoreData+Helper.swift in Sources */,
 				B6E726331F4254C70067B6F5 /* MarketLing.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
